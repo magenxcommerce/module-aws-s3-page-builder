@@ -1,0 +1,28 @@
+{
+    "name": "magenxcommerce/module-aws-s3-page-builder",
+    "description": "Aws S3 Page Builder module",
+    "require": {
+        "magenxcommerce/framework": "~103.0.3",
+        "php": "~7.3.0||~7.4.0"
+    },
+    "suggest": {
+        "magenxcommerce/module-page-builder": "2.2.*",
+        "magenxcommerce/module-aws-s3": "*"
+    },
+    "type": "magento2-module",
+    "license": [
+        "proprietary"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Magento\\AwsS3PageBuilder\\": ""
+        }
+    },
+    "version": "1.0.1",
+    "replace": {
+        "magento/module-aws-s3-page-builder": "*"
+    }
+}
